@@ -132,3 +132,89 @@ body{
     color: #ff0000;
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 760px){
+
+    .form-header{
+        margin-top: 3rem;
+    }
+    .form-header>form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input, .boton{
+        margin: 0.5rem ;
+    }
+
+    .container-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin:1rem 0 ;
+        background: none;
+    }
+    .card{
+        width: 90%;
+        background-color: #e4e4e4a4;
+        border-radius: 0.4rem;
+        margin: 2rem 0;
+    }
+    .cabezal{
+        padding: 0 1rem;
+    }
+    .cabezal .lugar, .cabezal .dia{
+        font-size: 2rem;
+        font-family: 'Titillium Web', sans-serif;
+        margin: 0;
+    }
+    .cabezal .dia{
+        font-weight: 300;
+        font-size: 1.6rem;
+        
+    }
+    
+    .tarjetas-clima{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tarjeta{
+      
+        width: 80%;
+        margin: 0.25rem 0;
+    }
+    .img{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .day{
+        margin: 0;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .desc{
+        text-transform: capitalize;
+        font-weight: 600;
+        
+    }
+    .max-min{
+        margin: 0;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .boton2{
+        color:black;
+        cursor: pointer;
+    }
+    .error{
+        margin: 0 10em;
+        background-color: #203de2;
+        text-align: center;
+        color: #ff0000;
+        font-size: 2rem;
+    }
+}
