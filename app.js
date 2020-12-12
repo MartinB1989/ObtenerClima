@@ -22,7 +22,7 @@ d.addEventListener("DOMContentLoaded", e => {
         auxiliar = true
         let ciudad = place.value
 
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&lang=sp&units=metric&appid=ebd9b8a6cefae88c9a049f0fe2db9836&`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&lang=sp&units=metric&appid=ebd9b8a6cefae88c9a049f0fe2db9836&`)
         .then(res =>res.json())
         .then(data => {
             let lat = data.coord.lat,
@@ -30,7 +30,7 @@ d.addEventListener("DOMContentLoaded", e => {
             temperaturaActual= Math.round(data.main.temp),
             idIcon = data.weather[0].icon,
             pais = data.sys.country,
-            linkIcon = `http://openweathermap.org/img/wn/${idIcon}@2x.png`,
+            linkIcon = `https://openweathermap.org/img/wn/${idIcon}@2x.png`,
             descripcion = data.weather[0].description,
             hoy = new Date()
             
