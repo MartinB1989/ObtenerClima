@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1bbba0;
+}
+
+.form-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+
+.input{
+    width: 15em;
+    height: 2em;
+    border:0;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+    outline: none;
+    font-family:'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+
+.boton{
+    height: 2em;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    background-color: #203de2;
+    color: #f0f8ff;
+    font-family:'Titillium Web', sans-serif;
+    font-weight: 600;
+    outline: none !important;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin:1rem 0 ;
+    background: none;
+}
+.card{
+    width: 40%;
+    background-color: #e4e4e4a4;
+    border-radius: 0.4rem;
+}
+.cabezal{
+    padding: 0 1rem;
+}
+.cabezal .lugar, .cabezal .dia{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+.cabezal .dia{
+    font-weight: 300;
+    
+}
+.section-temp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.temp{
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 4rem;
+
+}
+.div-icon{
+    margin:0 1rem;
+}
+.card .imagen{
+    width: 100%;
+    padding: 0;
+}
+
+.card .description{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.tarjetas-clima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;  
+    background-color:#e4e4e4a4;
+    font-family:'Titillium Web', sans-serif;
+    width: 10em;
+    margin: 0 0.25rem;
+    border-radius: 0.4rem;
+}
+.img{
+    margin: 0 auto;
+    text-align: center;
+}
+.day{
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.desc{
+    text-transform: capitalize;
+    font-weight: 600;
+    
+}
+.max-min{
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.boton2{
+    color:black;
+    cursor: pointer;
+}
+.error{
+    margin: 0 10em;
+    background-color: #203de2;
+    text-align: center;
+    color: #ff0000;
+    font-size: 2rem;
+}
