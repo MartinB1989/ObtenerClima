@@ -63,7 +63,7 @@ d.addEventListener("DOMContentLoaded", e => {
             .then(()=>array.splice(0,1))
             .then(()=>array.forEach(el =>{
                 tarjetasClima.querySelector(".day").textContent = el.dia
-                tarjetasClima.querySelector(".img").setAttribute("src",`http://openweathermap.org/img/wn/${el.icon}@2x.png`)
+                tarjetasClima.querySelector(".img").setAttribute("src",`https://openweathermap.org/img/wn/${el.icon}@2x.png`)
                 tarjetasClima.querySelector(".max").textContent = `max: ${el.max} C°`
                 tarjetasClima.querySelector(".min").textContent = `min: ${el.min} C°`
                 tarjetasClima.querySelector(".desc").textContent = el.descripcion
