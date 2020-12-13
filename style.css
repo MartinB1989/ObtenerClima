@@ -133,7 +133,7 @@ body{
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 768px){
 
     .form-header{
         margin-top: 3rem;
@@ -176,45 +176,21 @@ body{
     }
     
     .tarjetas-clima{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
     }
-    .tarjeta{
-      
+    .tarjeta{    
         width: 80%;
         margin: 0.25rem 0;
     }
-    .img{
-        margin: 0 auto;
-        text-align: center;
-    }
-    .day{
-        margin: 0;
-        font-size: 1.5rem;
-        text-align: center;
-        font-weight: 600;
-    }
-    .desc{
-        text-transform: capitalize;
-        font-weight: 600;
-        
-    }
-    .max-min{
-        margin: 0;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-    .boton2{
-        color:black;
-        cursor: pointer;
-    }
+    
     .error{
-        margin: 0 10em;
-        background-color: #203de2;
-        text-align: center;
-        color: #ff0000;
-        font-size: 2rem;
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .error{
+        margin: 2em;
     }
 }
