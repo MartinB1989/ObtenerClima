@@ -3,6 +3,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #1bbba0;
+    background-image: url("cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-header{
@@ -97,7 +100,7 @@ body{
     flex-direction: column;  
     background-color:#e4e4e4a4;
     font-family:'Titillium Web', sans-serif;
-    width: 10em;
+    width: 12em;
     margin: 0 0.25rem;
     border-radius: 0.4rem;
 }
@@ -192,5 +195,12 @@ body{
 @media only screen and (min-width: 769px) and (max-width:1024px){
     .error{
         margin: 2em;
+    }
+
+    .tarjetas-clima{
+        flex-wrap: wrap;
+    }
+    .tarjeta{
+        margin: 0.5rem;
     }
 }
