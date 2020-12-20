@@ -179,9 +179,19 @@ body{
         flex-wrap: wrap;
     }
     .tarjeta{    
-        /* width: 80%; */
+        width:45%;
         margin: 0.25rem;
     }
+
+    .day{
+        font-size: 1.2rem;
+    }
+    .desc, .max, .min{
+        margin:0;
+        font-size: 1rem;
+    }
+
+
     
     .error{
         margin: 0 1rem;
